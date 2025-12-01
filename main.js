@@ -28,7 +28,4 @@ if(song.play){
 
 progress.onchange = function(){
     song.play();
-    song.currentTime = progress.value;
-    playicon.classList.add("fa-pause");
-    playicon.classList.remove("fa-play");
-}
+    song.currentTime = progress.value;}
